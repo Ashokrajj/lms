@@ -1,0 +1,54 @@
+.main-txt {
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: whitesmoke;
+}
+
+.sub-txt {
+    text-align: center;
+    font-weight: 300px;
+    font-size: large;
+    color: whitesmoke;
+}
+
+.bg {
+    background-color: #120682;
+    height: 400px;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}
+
+.robot {
+    text-align: center;
+    padding: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .bg {
+        background-color: #120682;
+        height: 420px;
+        padding-top: 15vh;
+        padding-bottom: 10vh;
+    }
+
+    .sub-txt {
+        text-align: center;
+        font-weight: 100px;
+        font-size: large;
+        color: whitesmoke;
+    }
+
+    .main-txt {
+        text-align: center;
+        font-weight: bolder;
+        font-size: xx-large;
+        color: whitesmoke;
+    }
+
+    .robot {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+}
